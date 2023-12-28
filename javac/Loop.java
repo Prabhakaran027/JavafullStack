@@ -6,20 +6,14 @@ public class Loop {
 
         int a = 5, b = 10, c = 15;
 
-        if (a > b)  //a>b - expression - evaluated to boolean value - false
-        {
+        if (a > b) {                               //a>b - expression - evaluated to boolean value - false
             System.out.println("Hi everyone!!");
         } else {
             System.out.println("Bye everyone!!");
         }
 
         //if-elseif-else ladder
-        a = 5;
-        b = 5;
-        c = 5;
-
-        if (a > b)  //a>b - expression - evaluated to boolean value - false
-        {
+        if (a > b) {                               //a>b - expression - evaluated to boolean value - false
             System.out.println("Hi everyone!!");
         } else if (b > c) {
             System.out.println("Good Morning everyone!!");
@@ -30,13 +24,9 @@ public class Loop {
         }
 
         //Nested if-else
-        a = 5;
-        b = 15;
-        c = 25;
-        if (a > b)  //outer if
+        if (a > b)                                //outer if
         {
-            if (a > c)//inner if
-            {
+            if (a > c) {                           //inner if
                 System.out.println(a + " is greater");
             } else {
                 System.out.println(c + " is greater");
@@ -48,6 +38,15 @@ public class Loop {
                 System.out.println(c + " is greater");
             }
         }
+
+        int i = 1;
+        do {
+            System.out.println("i is " + i);
+            i++;
+        } while (i <= 10);
     }
 
+// for loop
 }
+
+
