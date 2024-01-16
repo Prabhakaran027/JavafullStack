@@ -20,7 +20,6 @@ public class FailFastExample {
             if (iterator.next() == 11) {
                 list.remove(1);
             }
-
         }
     }
 }
